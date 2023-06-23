@@ -15,6 +15,9 @@ class TestCalc(unittest.TestCase):
 		def test_mul(self):
 				self.assertEqual(self.calc.mul(2, 3), 6)
 		
+		def test_div(self):
+				self.assertEqual(self.calc.div(0, 5), 0)
+
 		def test_pow(self):
 				self.assertEqual(self.calc.pow(2, 3), 8)
 
